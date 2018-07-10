@@ -46,7 +46,7 @@ la.login = function(e){
 			}
 			else {
 				/* YOU WILL NEED TO CHANGE THIS URL TO YOUR URL FOR YOUR HOME PAGE OF YOUR JOB TRACKER APPLICATION */
-				window.location = "http://159.203.125.47/cps276/solutions/job_tracker/home/";
+				window.location = "http://159.203.125.47/job_tracker_student_version_php/home/";
 			}
 		}, data);
 	}

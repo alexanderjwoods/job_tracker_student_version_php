@@ -15,7 +15,7 @@ function addAccountPage(){
 function updateAccountPage(){
 	$pageData['base'] = "../";
 	$pageData['title'] = "Update Account Page";
-	$pageData['heading'] = "Job Tracker Update Acount Page";
+	$pageData['heading'] = "Job Tracker Update Account Page";
 	$pageData['nav'] = true;
 	$pageData['content'] = file_get_contents('views/admin/update_account.html');
 	$pageData['js'] = "Util^general^account";
@@ -27,7 +27,7 @@ function updateAccountPage(){
 function addAssetsAccountPage(){
 	$pageData['base'] = "../";
 	$pageData['title'] = "Add Assets Account Page";
-	$pageData['heading'] = "Job Tracker Add Assets to Acount Page";
+	$pageData['heading'] = "Job Tracker Add Assets to Account Page";
 	$pageData['nav'] = true;
 	$pageData['content'] = file_get_contents('views/admin/add_account_assets.html');
 	$pageData['js'] = "Util^general^account";

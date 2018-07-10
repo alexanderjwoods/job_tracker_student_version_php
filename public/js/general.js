@@ -63,6 +63,9 @@ gen.getAccountList = function(cb){
 	data = JSON.stringify(data);
 	Util.sendRequest('../xhr/routes.php', function(res){
 		var response = JSON.parse(res.responseText);
+
+
+
 		Util.getEl('#accountlist')[0].innerHTML = response.accounts;
 		/* I SEND A CALLBACK SO THAT I CAN ADD EVENT LISTENERS TO THE DROPDOWN BOX */
 		cb();

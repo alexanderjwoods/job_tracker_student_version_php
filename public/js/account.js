@@ -154,7 +154,6 @@ ac.addaccount = function(){
 	
 
 	Util.sendRequest('../xhr/routes.php', function(res){
-		
 		/* CLEAR ANY PREVIOUS ERRORS */
 		gen.clearErrors();
 

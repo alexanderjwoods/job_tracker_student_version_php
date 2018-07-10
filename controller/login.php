@@ -81,5 +81,6 @@ function logout(){
 	// Finally, destroy the session.
 	session_destroy();
 
-	header("Location: http://159.203.125.47/cps276/solutions/job_tracker/"); 
+	/* YOU WILL NEED TO CHANGE THIS LINE ON INSTALLATION */
+	header("Location: http://159.203.125.47/job_tracker_student_version_php/");
 }
