@@ -1,5 +1,5 @@
 # General Information
-This is the job tracker project for cps276
+This is the job tracker project for cps276.  The purpose of this project is to give students an experience with working on a larger application so they can really see how all the pieces fit together, using an MVC type architecture.  Most of the application is already written and all the students are responsible for is to write the code for two back-end controller files ()
 
 # Installation Instructions
 1. ssh into your server
@@ -27,6 +27,8 @@ This is the job tracker project for cps276
 ..9c line 3 of views/partials/navigation.php change the url to yours.
 
 ..9d go into the public directory and give full permissions to the account_folders directory (chmod 777 account_folders).
+
+..9e lines 20 and 28 of the invoice.php page change the url to yours.
 
 10. Go to application login page and login.
 

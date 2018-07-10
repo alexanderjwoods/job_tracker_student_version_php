@@ -17,7 +17,7 @@ $i = 0;
 /* CHECK VALIDATION ON ALL PARAMETER VALUES IF ANY DON'T PASS REDIRECT TO INVOICE PAGE*/
 while($i < count($tempArr)){
 	if(!$Validation->validate('timestamp',$tempArr[$i])){
-		header("Location: http://159.203.125.47/web250/solutions/job_tracker/printinvoice/");
+		header("Location: http://159.203.125.47/job_tracker_student_version/printinvoice/");
 		break;
 	}
 	$i++;
@@ -25,7 +25,7 @@ while($i < count($tempArr)){
 
 /* IF THE BEGINNING DATE IS GREATER THAN ENDING DATE REDIRECT TO INVOICE PAGE */
 if($begdate > $enddate){
-	header("Location: http://159.203.125.47/web250/solutions/job_tracker/printinvoice/");
+	header("Location: http://159.203.125.47/job_tracker_student_version/printinvoice/");
 }
 
 
@@ -102,7 +102,7 @@ foreach($jobHours as $row){
 		    	<h1>Shaper Enterprises</h1>
 		    	<address>
 		    		123 Anyplace, Somewhere MI<br>
-		    		Phone: 999-999-9999 Email: sshaper@sshaper.com
+		    		Phone: 999-999-9999 Email: sshaper@test.com
 		    	</address>
 	    	</div>
 	    	<div id="billto">
