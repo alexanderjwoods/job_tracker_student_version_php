@@ -128,13 +128,18 @@ cont.getContactList = function(action){
 	data = JSON.stringify(data);
 	Util.sendRequest('../xhr/routes.php', function(res){
 		response = JSON.parse(res.responseText);
-		if(action === 'update'){
-			Util.getEl('#contactlist')[0].innerHTML = response.list;
-			Util.addLis(Util.getEl('#contlst')[0], 'change', cont.getContact);
+		if(response.masterstatus === "success"){
+			if(action === 'update'){
+				Util.getEl('#contactlist')[0].innerHTML = response.list;
+				Util.addLis(Util.getEl('#contlst')[0], 'change', cont.getContact);
+			}
+			else if(action === 'manage'){
+				Util.getEl('#contactlist')[0].innerHTML = response.list;
+				Util.addLis(Util.getEl('#contlst')[0], 'change', cont.manageContactInterface);
+			}
 		}
-		else if(action === 'manage'){
-			Util.getEl('#contactlist')[0].innerHTML = response.list;
-			Util.addLis(Util.getEl('#contlst')[0], 'change', cont.manageContactInterface);
+		else if(response.masterstatus === "error"){
+			Util.getEl('#contactlist')[0].innerHTML = response.msg;
 		}
 	},data);
 }

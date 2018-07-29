@@ -29,7 +29,7 @@ function accountList(){
 	    else {
 	    	$response = (object) [
                 'masterstatus' => 'error',
-                'msg' => 'account not found',
+                'msg' => 'No accounts not found',
              ];
             $data = json_encode($response);
             echo $data;
