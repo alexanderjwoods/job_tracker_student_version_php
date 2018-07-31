@@ -26,15 +26,15 @@ This is the job tracker project for cps276.  The purpose of this project is to g
 
 10. YOU MUST CHANGE THE CODE IN THE FOLLOWING FILES FOR THE APPLICATION TO WORK
 
-..10a line 83 of controller/login.php change the url to yours.
+	10a line 83 of controller/login.php change the url to yours.
 
-..10b line 49 of public/js/login.js change the url to yours.
+	10b line 49 of public/js/login.js change the url to yours.
 
-..10c line 3 of views/partials/navigation.php change the url to yours.
+	10c line 3 of views/partials/navigation.php change the url to yours.
 
-..10d go into the public directory and give full permissions to the account_folders directory (chmod 777 account_folders).
+	10d go into the public directory and give full permissions to the account_folders directory (chmod 777 account_folders).
 
-..10e lines 20 and 28 of the invoice.php page change the url to yours.
+	10e lines 20 and 28 of the invoice.php page change the url to yours.
 
 11. Go to application login page and login.
 
