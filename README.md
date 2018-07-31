@@ -16,7 +16,7 @@ This is the job tracker project for cps276.  The purpose of this project is to g
 
 7. Log into mysql (mysql -u root -p) and create the job_tracker database (CREATE DATABASE job_tracker). When done exit MySQL shell
 
-8. Import the tables from the sql file (mysql -u root -p job_tracker < job_tracker.sql).  Make sure you are in the sql directory or job_tracker_student_version_php.
+8. Import the tables from the sql file (mysql -u root -p job_tracker < job_tracker.sql).  Make sure you are in the sql directory of the job_tracker_student_version_php directory.
 
 9. YOU MUST CHANGE THE CODE IN THE FOLLOWING FILES FOR THE APPLICATION TO WORK
 
