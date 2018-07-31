@@ -1,6 +1,6 @@
 <?php
 	/*THIS PAGE HAD TO BE A PHP PAGE BECAUSE WE NEEDED TO INJECT THE BASE PATH INTO EVERY LINK.  BY DOING THIS IF WE MOVE TO ANOTHER SERVER ALL WE NEED TO DO IS REPLACE THIS WITH THAT SERVERS ADDRESS.*/
-	$baseURL = "http://159.203.125.47/job_tracker_student_version_php";
+	$baseURL = "http://159.203.125.47/job_tracker_student_version_php/";
 ?>
 <div id="mainnav">
 	<div class="container">
