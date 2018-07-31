@@ -18,32 +18,38 @@ This is the job tracker project for cps276.  The purpose of this project is to g
 
 8. Import the tables from the sql file (mysql -u root -p job_tracker < job_tracker.sql).  Make sure you are in the sql directory of the job_tracker_student_version_php directory.
 
-9. YOU MUST CHANGE THE CODE IN THE FOLLOWING FILES FOR THE APPLICATION TO WORK
+9. You must enable the rewrite engine and restrt apache
 
-..9a line 83 of controller/login.php change the url to yours.
+..9a sudo a2enmod rewrite
 
-..9b line 49 of public/js/login.js change the url to yours.
+..9b sudo server apache2 restart
 
-..9c line 3 of views/partials/navigation.php change the url to yours.
+10. YOU MUST CHANGE THE CODE IN THE FOLLOWING FILES FOR THE APPLICATION TO WORK
 
-..9d go into the public directory and give full permissions to the account_folders directory (chmod 777 account_folders).
+..10a line 83 of controller/login.php change the url to yours.
 
-..9e lines 20 and 28 of the invoice.php page change the url to yours.
+..10b line 49 of public/js/login.js change the url to yours.
 
-10. Go to application login page and login.
+..10c line 3 of views/partials/navigation.php change the url to yours.
 
-11. Click Accounts and then add account.
+..10d go into the public directory and give full permissions to the account_folders directory (chmod 777 account_folders).
 
-12. Add an account by clicking add account.
+..10e lines 20 and 28 of the invoice.php page change the url to yours.
 
-13. Click update account, select the account you just created, and change something the update account.
+11. Go to application login page and login.
 
-14. Check to make sure the update took by selecting update account again.
+12. Click Accounts and then add account.
 
-15. Click add account asset, enter an name and select a file to upload (I have included a folder named "testdocuments" you can get a file from there).
+13. Add an account by clicking add account.
 
-16. Click view account assets, select your account, click on the file name, you should have your pdf file open in a new window.
+14. Click update account, select the account you just created, and change something the update account.
 
-17. Delete the file you just created.
+15. Check to make sure the update took by selecting update account again.
 
-18. If all the above worked then the application is working as expected. 
+16. Click add account asset, enter an name and select a file to upload (I have included a folder named "testdocuments" you can get a file from there).
+
+17. Click view account assets, select your account, click on the file name, you should have your pdf file open in a new window.
+
+18. Delete the file you just created.
+
+19. If all the above worked then the application is working as expected. 
