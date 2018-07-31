@@ -20,7 +20,7 @@ This is the job tracker project for cps276.  The purpose of this project is to g
 
 9. You must enable the rewrite engine and restrt apache
 
-..9a sudo a2enmod rewrite
+&npsp;&npsp;9a sudo a2enmod rewrite
 
 ..9b sudo server apache2 restart
 
