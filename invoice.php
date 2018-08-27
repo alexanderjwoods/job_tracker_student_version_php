@@ -99,10 +99,10 @@ foreach($jobHours as $row){
 	    <header>
 	    	<div id="logo"></div>
 	    	<div id="se">
-		    	<h1>Shaper Enterprises</h1>
+		    	<h1>CPS276</h1>
 		    	<address>
 		    		123 Anyplace, Somewhere MI<br>
-		    		Phone: 999-999-9999 Email: sshaper@test.com
+		    		Phone: 999-999-9999 Email: person@cps276.com
 		    	</address>
 	    	</div>
 	    	<div id="billto">
