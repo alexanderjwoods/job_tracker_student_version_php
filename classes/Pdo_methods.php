@@ -86,16 +86,3 @@ class PdoMethods extends DatabaseConn {
 		}
 	}
 }
-
-/*
-array = (
-	array(':xxx','value','type')
-);
-$sth->bindParam(':name', $dataArray[1], PDO::PARAM_STR);
-
-$sql = "SELECT id, name FROM job WHERE account_id = :accountId";
-$sth = $conn->prepare($sql);
-$sth->bindParam(':accountId', $dataArray[1], PDO::PARAM_INT);
-
-
-*/

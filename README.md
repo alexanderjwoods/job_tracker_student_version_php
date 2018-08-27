@@ -1,6 +1,8 @@
 # General Information
 This is the job tracker project for cps276.  The purpose of this project is to give students an experience with working on a larger application so they can really see how all the pieces fit together, using an MVC type architecture.  Most of the application is already written and all the students are responsible for is to write the code for two back-end controller files.
 
+NOTE: It is assumed you have already watched and followed along with the videos for (creating a droplet Digitalocean, Setting up your Digitalocean instance, changing mysql password, installing git, using github)
+
 # Installation Instructions
 1. ssh into your server
 
